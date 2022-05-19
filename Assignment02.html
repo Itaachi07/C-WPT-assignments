@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <script>
+        refTonum1=document.getElementById("num1");
+        refTonum2=document.getElementById("num2");
+        refToResult=document.getElementById("Result");
+        refToResult.value = refTonum1.value + refTonum2.value;
+
+        
+    </script>
+    <body>
+        <form> 
+            <center>
+            <table>
+                <h1>Calculator</h1>
+                <tr>
+                    <td>Enter number 1</td>
+                    <td><input type="int"
+                        id="num1"></td>
+                </tr>
+                <tr>
+                    <td>Enter number 2</td>
+                    <td><input type="int"
+                        id="num2"></td>
+                </tr>
+                <tr>
+                    <td>Output</td>
+                    <td><output name="x"
+                        id="Result"></td>
+                </tr>
+                <tr>
+                    <td>
+                       
+                    </td>
+                </tr>
+            </table>
+        </center>
+        </form>
+    </body>
+</html>

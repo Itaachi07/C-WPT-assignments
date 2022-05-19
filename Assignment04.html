@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <body>
+        
+        <form>
+            <center>
+                <h1>Registration Form</h1>
+            </center>
+            <table>
+                <tr rowspan="7">
+                    <td><iframe width="480" height="272" src="https://www.youtube.com/embed/02q9aAVv1NI" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe> </td>
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp;</td>
+                    <td>
+                        <table>
+                        <tr>
+                            <td>Name :</td>
+                            <td><input type="Name"
+                                required="requred"
+                                name="name"></td>                       
+                        </tr>
+                        <tr><td>Birthdate :</td>
+                            <td><input type="Date"
+                                required="requred"
+                                name="birthdate"></td> 
+                        </tr>
+                        <tr><td>Email :</td>
+                            <td><input type="email"
+                                name="email"></td> 
+                        </tr>
+                        <tr><td>Password :</td>
+                            <td><input type="password"
+                                name="password"></td> 
+                        </tr>
+                        <tr colspan = "4">
+                            <td>Address</td>
+                            <td> 
+                                <select name="Address" id="Address">
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Gujarat">Gujarat</option>
+                            </select>
+                            <select name="Address" id="Address">
+                                <option value="Satara">Satara</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Kolhapur">Kolhapur</option>
+                                <option value="Solapur">Solapur</option>
+                            </select>
+                            <select name="Address" id="Address">
+                                <option value="Satara">Satara</option>
+                                <option value="Mahabaleshwar">Mahabaleshwar</option>
+                                <option value="Baramati">Baramati</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Wai">Wai</option>
+                                <option value="Kolhapur">Kolhapur</option>
+                                <option value="Solapur">Solapur</option>
+                            </select>
+                            </td>
+                            <tr>
+                                <td>&nbsp; &nbsp; </td>
+                                
+                                <td>State &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  District &nbsp; &nbsp; &nbsp; &nbsp; City </td>                       
+                            </tr>
+                            <tr>
+                                <td> Gender :</td>
+                                <td> <form action="">
+                                    <input type="checkbox" name="Male" id="Male" value="Male">
+                                    <label for="Male">Male</label> 
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+                                    <input type="checkbox" name="FeMale" id="FeMale" value="FeMale">
+                                    <label for="FeMale">Female</label>
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td>Upload Photo</td>
+                                <td> <form action="/action_page.php">
+                                    <input type="file" id="myfile" name="filename" >   
+                                </form></td>
+                            </tr>
+                            <tr>
+                                <td>Select Course</td>
+                                <td> <select name="course" id="courseid">
+                                    <option value="DAC">DAC</option>
+                                    <option value="DMC">DMC</option>
+                                    <option value="DBMS">DBMS</option></td>
+                                </select>      
+                            </tr>
+                            
+                            <tr>
+                                <td> <button type="submit"> Register</button></td>
+                                <td><button type="reset">Clear</button></td>
+                            </tr>
+                        </tr>
+                        </table>
+                    </td> 
+            </table>
+
+        </form>
+    </body>
+
+</html>
